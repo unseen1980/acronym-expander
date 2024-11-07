@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acronym Expander Settings</title>
+    <style>
+      body {
+        padding: 1rem;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      .settings-container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .setting-item {
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="settings-container">
+      <h1>Acronym Expander Settings</h1>
+      <div class="setting-item">
+        <label for="enable-extension">
+          <input type="checkbox" id="enable-extension" />
+          Enable Acronym Expander
+        </label>
+      </div>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

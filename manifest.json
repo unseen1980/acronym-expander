@@ -1,0 +1,29 @@
+{
+  "name": "Acronym Expander with Gemini Nano",
+  "version": "1.2",
+  "manifest_version": 3,
+  "description": "Expands acronyms and abbreviations on webpages using Gemini Nano.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "css": ["tooltip.css"],
+      "run_at": "document_end",
+      "type": "module"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["iframe.html", "iframe.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "options_page": "options.html",
+  "minimum_chrome_version": "88"
+}

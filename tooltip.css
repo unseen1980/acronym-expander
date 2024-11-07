@@ -1,0 +1,38 @@
+/**
+ * Styles for the acronym tooltip component
+ */
+
+/* Tooltip container */
+#acronym-tooltip {
+  position: fixed; /* Changed from absolute for better positioning */
+  background-color: var(--tooltip-bg, #333);
+  color: var(--tooltip-text, #fff);
+  padding: 0.5rem;
+  border-radius: 4px;
+  z-index: 2147483647; /* Maximum safe z-index */
+  display: none;
+  max-width: 300px;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  pointer-events: none; /* Prevent tooltip from interfering with interactions */
+}
+
+/* Acronym highlighting */
+.acronym-expander {
+  text-decoration: underline dotted;
+  cursor: help;
+  pointer-events: auto;
+}
+
+/* Allow tooltips in links */
+a .acronym-expander {
+  text-decoration: underline dotted;
+  cursor: help;
+  pointer-events: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.acronym-expander:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
