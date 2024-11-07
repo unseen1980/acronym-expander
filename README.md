@@ -10,6 +10,7 @@ A Chrome extension that enhances digital literacy by providing instant, contextu
 - [Installation](#installation)
 - [Usage](#usage)
 - [Proof of Concept Findings](#proof-of-concept-findings)
+- [Research Paper](#research-paper)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -87,7 +88,7 @@ _Screenshot 2: Hovering over "PPI" shows the expanded definition and explanation
 _Screenshot 3: Hovering over "GPU" shows the expanded definition and explanation_
 
 ![Extension in action - hovering over an acronym](./screenshots/console.png)
-_Screenshot 4: In developer tools console the detected acronyms are logged
+\_Screenshot 4: In developer tools console the detected acronyms are logged
 
 ## Proof of Concept Findings
 
@@ -98,6 +99,18 @@ The proof-of-concept tool developed for my thesis demonstrated significant benef
 - **Enhanced Confidence**: 65% of users felt more confident engaging with complex content due to the simplified, accessible explanations.
 
 These findings highlight the potential of contextual help tools to improve accessibility and comprehension for diverse user groups.
+
+## Research Paper
+
+For a detailed understanding of the research behind this extension, you can read my thesis:
+[Contextual help extension for digital illiterate internet users - Christos Koutsiaris [Final].pdf](./Contextual%20help%20extension%20for%20digital%20illiterate%20internet%20users%20-%20Christos%20Koutsiaris%20[Final].pdf)
+
+This paper explores:
+
+- The challenges faced by digitally illiterate users
+- The impact of contextual help tools on user comprehension
+- Design considerations for accessibility-focused browser extensions
+- Empirical findings from user studies
 
 ## Contributing
 
