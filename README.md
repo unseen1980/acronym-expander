@@ -70,6 +70,13 @@ To install the extension from the source code:
 2. **Hover Over Acronyms**: When browsing any webpage, hover over acronyms to see their expanded form and brief description.
 3. **Customize Settings**: You can adjust the extension's settings from the options page (accessible by right-clicking the extension icon and selecting "Options").
 
+### Demo Video
+Watch the extension in action:
+
+[![Acronym Expander Demo](https://img.youtube.com/vi/ePVaeyRWa3M/0.jpg)](https://www.youtube.com/watch?v=ePVaeyRWa3M)
+
+_Click the image above to watch the demo video on YouTube_
+
 ### Example Workflow
 
 1. Open any article or website with technical terms. You can test the extension on this page: [Pixel 9 Pro Specs](https://store.google.com/product/pixel_9_pro_specs?hl=en-GB)
@@ -88,7 +95,7 @@ _Screenshot 2: Hovering over "PPI" shows the expanded definition and explanation
 _Screenshot 3: Hovering over "GPU" shows the expanded definition and explanation_
 
 ![Extension in action - hovering over an acronym](./screenshots/console.png)
-\_Screenshot 4: In developer tools console the detected acronyms are logged
+_Screenshot 4: In developer tools console the detected acronyms are logged_
 
 ## Proof of Concept Findings
 
